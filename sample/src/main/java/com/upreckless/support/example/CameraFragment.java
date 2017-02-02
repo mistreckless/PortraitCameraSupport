@@ -83,10 +83,7 @@ public class CameraFragment extends Fragment implements TextureView.SurfaceTextu
             @Override
             public void onError(String message) {
                 Log.e("ERROR", message);
-                cameraSupport = CameraSupportFactory.getInstance()
-                        .getCameraSupport(getActivity(), autoFitTextureView, CameraSupportController.CameraApi.OLD);
-                cameraSupport.resumePreview(autoFitTextureView.getSurfaceTexture(),
-                        autoFitTextureView.getWidth(), autoFitTextureView.getHeight());
+               
             }
         });
     }
