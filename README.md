@@ -5,6 +5,8 @@ and allows you to display preview, reselect camera type(FRONT/BACK), take pictur
 #Install
 Add the following code in your gradle.build file
 
+    compile 'com.github.mistreckless:portraitcamera-support:0.1.0'
+
 
 #Manifest
     <uses-permission android:name="android.permission.CAMERA" />
