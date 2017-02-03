@@ -1,6 +1,6 @@
 # Portrait Camera Support Library
 Simple library for fixed portrait screen orientation camera apps(like instagram) that supports camera1 and camera2 api
-and allows you to display preview, reselect camera type(FRONT/BACK), take pictures and enable/disable flash mode.
+and allows you to display preview, reselect camera type(FRONT/BACK), take and save pictures(library determines the current position of the screen and save the image in correct orientations), enable/disable flash mode
 
 #Install
 Add the following code in your gradle.build file
