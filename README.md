@@ -41,3 +41,5 @@ or for some devices with api>21 that doesn't supported camera2
                         
 ##Enable/Disable flash 
     cameraSupport.setAutoFlashEnabled(true)//false
+    
+[my website](https://get-in.app/)
